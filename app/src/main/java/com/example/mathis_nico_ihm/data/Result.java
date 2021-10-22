@@ -19,7 +19,7 @@ public class Result<T> {
         }
         return "";
     }
-
+//Commentaire test GitHub
     // Success sub-class
     public final static class Success<T> extends Result {
         private T data;
@@ -32,7 +32,7 @@ public class Result<T> {
             return this.data;
         }
     }
-
+// COmmentaire numéro 2
     // Error sub-class
     public final static class Error extends Result {
         private Exception error;
